@@ -1,6 +1,6 @@
 {
   "name": "@coderich/service-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/ServiceProvider.js",
   "publishConfig": {
     "access": "public"
@@ -14,8 +14,7 @@
     "lint": "eslint ./",
     "dev": "coderich-dev"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@coderich/dev": "0.4.2"
   }
