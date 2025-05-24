@@ -1,0 +1,22 @@
+{
+  "name": "@coderich/service-provider",
+  "version": "1.0.0",
+  "main": "src/ServiceProvider.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "!__mocks__"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./",
+    "dev": "coderich-dev"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@coderich/dev": "0.4.2"
+  }
+}
